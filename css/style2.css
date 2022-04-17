@@ -289,14 +289,15 @@
   }
   
   .team .box span{
-    color:var(--pink);
+    color:rgb(245, 8, 205);
     font-size: 2rem;
   }
   
   .team .box p{
-    color:#666;
+    color:rgb(0, 0, 0);
     font-size: 1.5rem;
     padding:1rem 0;
+    font-weight: bold;
   }
   
   .team .box .share a{
@@ -307,7 +308,7 @@
     background:var(--pink);
     border-radius: .5rem;
     margin:.3rem;
-    color:#fff;
+    color:rgba(39, 51, 218, 0.911);
   }
   
   .team .box .share a:hover{
@@ -858,20 +859,7 @@
       }
   
   
-      .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 80%;
-        width: auto;
-        margin-top: -3px;
-        padding: 16px;
-        color: rgb(173, 139, 173);
-        font-weight: bold;
-        font-size: 25px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
+      
       
     }
   
