@@ -954,13 +954,13 @@ img {vertical-align: middle;}
 
 
 @media(max-width: 767px){
-	.login-popup .box{
+	.login-popup .boxp{
 		width: calc(100% - 30px);
 	}
-	.login-popup .box .img-area{
+	.login-popup .boxp .img-area{
 		display: none;
 	}
-	.login-popup .box .form{
+	.login-popup .boxp .form{
 		flex: 0 0 100%;
         max-width: 100%;
 	}
